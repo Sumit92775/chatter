@@ -1,0 +1,247 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* 
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+   
+} */
+
+.splash_screen_container{
+    height: 100vh;
+    width: 100%;
+    background-color: green;
+}
+
+.splash_screen_container_2{
+    height: 100%;
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.anim1{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
+.anim1 img{
+    width: 100%;
+    height: fit-content;
+    background-color: #ffffff;
+}
+
+.anim2{
+    width: 40.3%;
+    height: 100%;
+    background-color:#ffffff;
+    padding: 10px;
+}
+
+.anim3{
+    width: 30;
+    height: fit-content;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
+.anim3 img{
+    width: 100%;
+    height: 100%;
+    background-color:white;
+    /* padding: 10px; */
+}
+
+.s_message{
+    height: fit-content;
+    width: 300px;
+    background: linear-gradient(152deg, #6028a5 29%, #9217b1);
+    border-radius: 8px 8px 0px 8px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5px;
+    font-size: 15px;
+    margin-top: 6px;
+    float: right;
+    clear: both;
+    word-break: break-all;
+    color: white;
+}
+
+.r_message{
+    background-color: khaki;
+    float: left;
+    clear: both;
+    height: fit-content;
+    border-radius: 0px 8px 8px 8px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 15px;
+    font-size: 15px;
+    margin-top: 16px;
+    width: 2500px;
+    max-width: 250px;
+    word-break: break-all;
+}
+
+
+.msg{
+    min-height: 25px;
+    border-radius: 8px 8px 0px 8px;
+    width: 100%;
+    max-width: 150px;
+    word-break: break-all;
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    font-family: 'Zen Loop', cursive;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+  
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+
+.anim .chatter .chat{
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: lightsalmon;
+
+} 
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background-color: #ebd7fd;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    border-radius: 20px;
+    /* padding: 10px; */
+    animation: fadeInAnimation ease 1.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+.back{
+    height: 100%;
+    width: 40%;
+    background-color: #ebd7fd;
+    position: relative;
+}
+
+.info{
+    /* background-color: blueviolet; */
+    height: 350px;
+    width: 100%;
+    /* background-color: cadetblue; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 24%;
+    left: 10px;
+    grid-gap: 10px;
+}
+
+.info img{
+    height: 100px;
+    width: 100px;
+    /* background-color: brown; */
+
+}
+
+.info input{
+    height: 33px;
+    width: 190px;
+    border-radius: 20px;
+    outline: none;
+    text-decoration: none;
+    border: none;
+    padding: 10px;
+    box-shadow: 0px 1px 5px 1px grey;
+}
+
+.submit{
+    height: 50px;
+    width: 50px;
+    border-radius: 40px;
+    background-color: #6b19a8;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 0px 1px 5px 1px grey;
+
+}
+
+.fas{
+    font-size: 22px;
+    color: white;
+}
+
+.temp{
+    padding-left: 20px;
+    height: 100%;
+    width: 100%;
+}
+
+.front{
+    height: 100%;
+    width: 100%;
+    /* background-color: #543e8e; */
+    box-shadow: 1px 1px 14px 0px grey;
+    border-radius: 639px 0px 0px 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right,#6870bc,#533c8c);
+    position: relative;
+}
+
+.signup{
+    height: 20px;
+    width: 40%;
+    border-top: 1px solid grey;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.dex:hover{
+    height: 40px;
+    width: 100%;
+    color: white;
+    border-radius: 20px;
+    background-color: indigo;
+    /* border-top: 1px solid grey; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: 0.6s;
+
+}

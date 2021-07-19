@@ -1,0 +1,283 @@
+/* *{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.Sregister{
+    height: 40rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.Sregister_container{
+    height: 60vh;
+    width: 60vh;
+    background-color: aquamarine;
+}
+
+.Slogin_signup_field{
+    height: 50px;
+    width: 100%;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.Senter_detail_field{
+    height: calc(100% - 50px);
+    width: 100%;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.Senter_email{
+    height: 40px;
+    width: 200px;
+    max-width: 400px;
+    text-align: center;
+}
+
+.Senter_password{
+    margin-top: 10px;
+    height: 40px;
+    width: 200px;
+    max-width: 400px;
+    text-align: center;
+}
+
+.Senter_number{
+
+    margin-top: 10px;
+    height: 40px;
+    width: 200px;
+    max-width: 400px;
+    text-align: center;
+}
+
+.Ssubmit{
+    background-color: lightcoral;
+    height: 40px;
+    width: 200px;
+    max-width: 400px;
+    align-self: center;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+} */
+
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.Scontainer{
+    height: 100vh;
+    width: 100%;
+    background-color: #ebd7fd;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    border-radius: 20px;
+    /* padding: 10px; */
+    position: relative;
+}
+.Sback{
+    height: 100%;
+    width: 40%;
+    background-color: #ebd7fd;
+    position: relative;
+}
+
+.Sinfo{
+    /* background-color: blueviolet; */
+    height: 350px;
+    width: 100%;
+    /* background-color: cadetblue; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 24%;
+    left: 10px;
+    grid-gap: 10px;
+}
+
+.Pinfo{
+    /* background-color: blueviolet; */
+    height: 350px;
+    width: 100%;
+    /* background-color: cadetblue; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 24%;
+    left: 10px;
+    grid-gap: 10px;
+}
+
+.Sinfo img{
+    height: 100px;
+    width: 100px;
+    /* background-color: brown; */
+
+}
+
+.Sinfo input{
+    height: 33px;
+    width: 190px;
+    border-radius: 20px;
+    outline: none;
+    text-decoration: none;
+    border: none;
+    padding: 10px;
+    box-shadow: 0px 1px 5px 1px grey;
+}
+
+.Ssubmit{
+    height: 100px;
+    width: 50px;
+    border-radius: 50px;
+    background-color: #6b19a8;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 0px 1px 5px 1px grey;
+
+}
+
+.Sssubmit{
+
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    background-color: #6b19a8;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.Sfas{
+    font-size: 22px;
+    color: white;
+}
+
+.Stemp{
+    padding-left: 20px;
+    height: 100%;
+    width: 100%;
+}
+
+.Sfront{
+    height: 100%;
+    width: 100%;
+    /* background-color: #543e8e; */
+    box-shadow: 1px 1px 14px 0px grey;
+    border-radius: 639px 0px 0px 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right,#6870bc,#533c8c);
+    position: relative;
+}
+
+.Ssignup{
+    height: 20px;
+    width: 40%;
+    border-top: 1px solid grey;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.signup_loading{
+    position: fixed;
+    top: 36px;
+    left: 302px;
+}
+
+.Sdex:hover{
+    height: 40px;
+    width: 100%;
+    color: white;
+    border-radius: 20px;
+    background-color: indigo;
+    /* border-top: 1px solid grey; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: 0.6s;
+
+}
+
+
+
+.Sprofile{
+    height: 100vh;
+    background-color: lightcoral;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.Sdp_and_user_name{
+    height: 500px;
+    width: 500px;
+    background-color: lightcyan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+}
+
+.Suser_name{
+    height: 40px;
+    width: 100px;
+    background-color: lightblue;
+    text-align: center;
+}
+
+#profile_dp{
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    object-fit: contain;
+    background-size: auto;
+    /* background-image: url("https://www.Snetcetra.Scom/images/howto_images/photoshop-logo.Sjpg"); */
+}
+
+.Suser_name{
+    margin-top: 10px;
+}
+
+.Snext{
+    height: 50px;
+    width: 50px;
+    background-color: lightsalmon;
+    position: relative;
+    top: 215px;
+    left: 215px;
+    border-radius: 40px;
+}
+
+.next:hover{
+    height: 50px;
+    /* width: 100%; */
+    background-color: midnightblue;
+}

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <title>Document</title>
+</head>
+
+<style>
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+   
+}
+
+.create_group_container{
+    height: 100%;
+    width: 100%;
+    background-color: blueviolet;
+    padding : 10px;
+}
+
+.group_container{
+    height: 100%;
+    width: 100%;
+    background-color:darkcyan;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.main_container{
+    height: 100%;
+    width: 50%;
+    background-color: darkgray;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.choose_friend_for_group{
+    width: 100%;
+    height: 50%;
+    background-color: darkkhaki;
+}
+
+.list{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    overflow-x: auto;
+    /* background-color: lightgrey; */
+
+}
+.friend_div{
+    width: 100px;
+    flex-shrink: 0;
+    height: 100px;
+    background-color:darkseagreen;
+    border: 1px solid;
+}
+
+.selected_friends_for_group{
+    height: 50%;
+    width: 100%;
+    background-color: darkmagenta;
+}
+
+
+.animation_container{
+    width: 50%;
+    height: 100%;
+}
+
+</style>
+<body>
+<!-- 
+    <div class="sender_message">
+        <div class="msg"> Hello hi how are you??sbsajhvsachajshcvsahjcsajckwbgfuyegfkjwgjfwkgdjaksnfjbfjhsvfsefvsejkfkejfhsdskhfasljfadhflkadshalaskassejkfhseakjf</div>
+        <img  class="ticks" src="https://i.ibb.co/LvkvDnm/ticks-component-2-removebg-preview.png" alt="">
+    </div>
+    -->
+
+    <div class="create_group_container">
+        <div class="group_container">
+            <div class="main_container">
+                <div class="choose_friend_for_group">
+                    <div class="list">
+                        <div class="friend_div"></div>
+                        <div class="friend_div"></div>
+                        <div class="friend_div"></div>
+                        <div class="friend_div"></div>
+                        <div class="friend_div"></div>
+                        <div class="friend_div"></div>
+                        <div class="friend_div"></div>
+                        <div class="friend_div"></div>
+                        <div class="friend_div"></div>
+                        <div class="friend_div"></div>
+                        <div class="friend_div"></div>
+                        <div class="friend_div"></div>
+                        <div class="friend_div"></div>
+                        <div class="friend_div"></div>
+                        <div class="friend_div"></div>
+                        <div class="friend_div"></div>
+                        <div class="friend_div"></div>
+                        <div class="friend_div"></div>
+                        <div class="friend_div"></div>
+                        <div class="friend_div"></div>
+                    </div>
+                </div>
+                <div class="selected_friends_for_group"></div>
+            </div>
+            <div class="animation_container"></div>
+        </div>
+    </div>
+    
+</body>
+</html>
